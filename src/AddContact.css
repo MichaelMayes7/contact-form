@@ -1,0 +1,22 @@
+.innerWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttonWrapper {
+    text-align: center;
+}
+
+.listWrapper {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.submitButton {
+    width: 50px;
+}
