@@ -28,7 +28,9 @@ export default class AddContact extends React.Component {
 
     handleSubmit = (event) => {
         event.preventDefault();
-        console.log(`${this.state.firstName} ${this.state.lastName}`)
+        const newObj = { ...this.state }
+        // console.log(`${this.state.firstName} ${this.state.lastName}`);
+        console.log(newObj);
     }
     render () {
         
